@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styling</title>
+    <link rel="stylesheet" href="1.css" />
+    <style>
+      body {
+        margin: 0;
+        background-color: aqua;
+        font-family: sans-serif;
+      }
+      span.internal {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body style="margin: 0">
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      "
+    >
+      <div class="cont">
+        <p>
+          This has been styled using
+          <span style="color: blue; font-weight: bold">inline CSS</span>
+        </p>
+        <p>
+          This has been styled using
+          <span class="internal">internal stylesheet</span>
+        </p>
+        <p>
+          This has been styled using
+          <span class="external">external stylesheet</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.cont {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0px 0px 5px #00000058;
+}
+span.external {
+  color: green;
+  font-weight: bold;
+}
